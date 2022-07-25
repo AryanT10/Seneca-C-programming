@@ -66,6 +66,7 @@ int main(void)
 				break;
 		default:
 			printf("\nERROR : Invalid entered value(s) ! ");
+			goto again;
 		}
 			return 0;
 }

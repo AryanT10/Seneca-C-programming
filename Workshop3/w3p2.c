@@ -98,7 +98,7 @@ int main(void)
 	  printf("\n---+---------------+---------------+---------------+-------+---------------");
 	  printf("\n 1 |  1    |  0    |  1     |  0   |   %d  | %.3f  |  1    | %.2f  |  %.1f ",g1,g1/GRAMS_IN_LBS,temp1,(temp1 * 1.8) + 32.0);
 	  printf("\n 2 |  0    |  1    |  0     |  1   |   %d  | %.3f  |  0    | %.2f  |  %.1f ",g2,g2/GRAMS_IN_LBS,temp2,(temp2 * 1.8) + 32.0);
-	  printf("\n 3 |  1    |  0    |  0     |  1   |   %d  | %.3f  |  0    | %.2f  |  %.1f ",g3,g3/GRAMS_IN_LBS,temp3,(temp3 * 1.8) + 32.0);
+	  printf("\n 3 |  1    |  0    |  0     |  1   |  %d  | %.3f  |  0    | %.2f  |  %.1f ",g3,g3/GRAMS_IN_LBS,temp3,(temp3 * 1.8) + 32.0);
 
 	  printf("\n");
 	  printf("\nEnter how you like Your coffee and the coffee maker equipment you use...");
